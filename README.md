@@ -1,8 +1,3 @@
-Let's start setting up FreeBSD! v v v
-<details>
-
-<summary>Start</summary>
-
 # Jump right into FreeBSD!
 
 
@@ -11,7 +6,7 @@ Let's start setting up FreeBSD! v v v
 > TO BECOME ROOT, RUN: 
 
 ```
- su
+ su -
 ```
 > Password:
 
