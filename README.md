@@ -103,7 +103,7 @@ pkg install plasma5-plasma konsole dolphin sddm && sysrc dbus_enable="YES" && sy
 ## KDE PLASMA 6 MINIMAL: 
 
 ```
-pkg install plasma6-plasma konsole dolphin sddm && sysrc dbus_enable="YES" && sysrc sddm_enable="YES"
+pkg install plasma6-plasma konsole-devel dolphin-devel sddm && sysrc dbus_enable="YES" && sysrc sddm_enable="YES"
 ```
 
 ## GNOME: 
