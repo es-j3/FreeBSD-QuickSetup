@@ -30,7 +30,7 @@ pkg install drm-kmod && sysrc kld_list+=i915kms
 > Newer cards need a newer DRM-kmod! 7xxx and newer:
 
 ```
-cd /usr/ports/graphics/drm-61-kmod && make install clean && pkg install gpu-firmware-amd-kmod
+cd /usr/ports/graphics/drm-61-kmod && make install clean && pkg install graphics/gpu-firmware-amd-kmod
 ```
 > (a lot, but it is what is required at the moment.)
 
