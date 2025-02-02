@@ -24,15 +24,8 @@ pkg install drm-kmod && sysrc kld_list+=i915kms
 ## AMD: 
 
 ```
-(AMD Radeon HD7000 and newer): pkg install drm-kmod && sysrc kld_list+=amdgpu
+pkg install drm-61-kmod && sysrc kld_list+=amdgpu
 ```
-
-> Newer cards need a newer DRM-kmod! 7xxx and newer:
-
-```
-cd /usr/ports/graphics/drm-61-kmod && make install clean && pkg install graphics/gpu-firmware-amd-kmod
-```
-> (a lot, but it is what is required at the moment.)
 
 > Older card? No problem!
 
