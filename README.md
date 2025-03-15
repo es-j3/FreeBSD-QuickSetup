@@ -90,7 +90,7 @@ pkg install kde6 sddm && sysrc dbus_enable="YES" && sysrc sddm_enable="YES"
 ## KDE PLASMA MINIMAL: 
 
 ```
-pkg install plasma5-plasma konsole dolphin sddm && sysrc dbus_enable="YES" && sysrc sddm_enable="YES"
+pkg install plasma6-plasma konsole dolphin sddm && sysrc dbus_enable="YES" && sysrc sddm_enable="YES"
 ```
 
 ## KDE PLASMA 6 MINIMAL: 
