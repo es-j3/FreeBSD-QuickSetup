@@ -77,26 +77,13 @@ pkg install xorg
 ## KDE PLASMA: 
 
 ```
-pkg install kde5 sddm && sysrc dbus_enable="YES" && sysrc sddm_enable="YES"
-```
-
-## KDE PLASMA 6:
-> Note that KDE plasma 6 is still in development on FreeBSD, so don't be surprised if something doesn't work. 
-
-```
-pkg install kde6 sddm && sysrc dbus_enable="YES" && sysrc sddm_enable="YES"
+pkg install kde sddm && sysrc dbus_enable="YES" && sysrc sddm_enable="YES"
 ```
 
 ## KDE PLASMA MINIMAL: 
 
 ```
 pkg install plasma6-plasma konsole dolphin sddm && sysrc dbus_enable="YES" && sysrc sddm_enable="YES"
-```
-
-## KDE PLASMA 6 MINIMAL: 
-
-```
-pkg install plasma6-plasma konsole-devel dolphin-devel sddm && sysrc dbus_enable="YES" && sysrc sddm_enable="YES"
 ```
 
 ## GNOME: 
